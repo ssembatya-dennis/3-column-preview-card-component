@@ -1,0 +1,125 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Big Shoulders Display", "Lexend Deca", sans-serif cursive;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+/*Card Layout*/
+
+main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 0;
+  background: #f2f2f2;
+}
+
+.row {
+  max-width: 90rem;
+  min-height: 50rem;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 0.8rem;
+  overflow: hidden;
+}
+
+.col {
+  width: calc(90rem / 3);
+  height: 50rem;
+  padding: 4.8rem;
+}
+
+.col-1-of-3 {
+  background: #e28625;
+}
+
+.col-2-of-3 {
+  background: #006971;
+}
+
+.col-3-of-3 {
+  background: #004140;
+}
+
+/*Card Typography*/
+
+.card__heading {
+  font-family: "Big Shoulders Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4rem;
+  text-transform: uppercase;
+  color: #f2f2f2;
+  margin: 3.2rem 0 2.5rem;
+}
+
+.card__text {
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: #fff;
+  opacity: 0.75;
+  margin-bottom: 8.3rem;
+}
+
+/* CTA */
+.btn,
+.btn:link,
+.btn:active {
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  text-decoration: none;
+  background: #f2f2f2;
+  border-radius: 2.5rem;
+  padding: 1.5rem 1.9rem;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: transparent;
+  color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+}
+
+.btn-1 {
+  color: #e28625;
+}
+
+.btn-2 {
+  color: #006971;
+}
+
+.btn-3 {
+  color: #004140;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
