@@ -16,8 +16,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [3-column preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-3-column-preview-card-component-with-css-flexbox-Tj1WCCfvpX)
+- Live Site URL: [3-column preview card component challenge on Frontend Mentor](https://3-column-preview-card-component-dun-nine.vercel.app/)
 
 ### Built with
 
@@ -27,5 +27,5 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@ssembatya-dennis](https://www.frontendmentor.io/profile/ssembatya-dennis)
+- Twitter - [@DennisSsembatya](https://twitter.com/DennisSsembatya)
